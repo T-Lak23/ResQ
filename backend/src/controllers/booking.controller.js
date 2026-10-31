@@ -178,7 +178,6 @@ export const createBooking = async (req, res) => {
     let customer;
     customer = await Customer.findOne({
       email,
-      phone,
       restaurantId: restaurant._id,
     }).session(session);
     if (customer) {
