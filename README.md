@@ -12,7 +12,6 @@ A full-stack restaurant table booking system with QR code integration. The appli
 - **JWT** - Authentication
 - **bcrypt** - Password hashing
 - **nodemailer** - Email notifications
-- **qrcode** - QR code generation
 - **zod** - Data validation
 - **cors** - Cross-origin resource sharing
 - **cookie-parser** - Cookie handling
